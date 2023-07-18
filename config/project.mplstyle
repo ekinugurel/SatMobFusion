@@ -1,0 +1,19 @@
+# here, common matplotlib parameters can be set to desired values to fix the design of plots
+axes.grid           : False
+axes.linewidth      : 1
+axes.axisbelow      : True
+errorbar.capsize    : 2
+#font.family         : sans-serif
+font.size           : 12. #22. #12.0
+#legend.fontsize     : 14
+#text.latex.preview  : True
+#text.latex.preamble : \usepackage[utf8]{inputenc}
+axes.labelsize      : 15.0 #14.0
+axes.labelweight    : bold #font.weight property has effectively 13 values: normal, bold, bolder, lighter, 100, 200, 300, ..., 900.  Normal is the same as 400, and bold is 700.  bolder and lighter are relative values with respect to the current weight.
+xtick.major.width   : 1
+xtick.major.size    : 5.5
+ytick.major.width   : 1
+ytick.major.size    : 5.5
+axes.formatter.use_locale : True
+
+#valid strings are [u'bf', u'bb', u'default', u'tt', u'circled', u'frak', u'it', u'regular', u'cal', u'rm', u'sf', u'scr']
