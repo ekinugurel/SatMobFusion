@@ -2,6 +2,7 @@ deprecated/
 data/mobile/**/*.csv
 data/mobile/**/*.xlsx
 data/satellite/**/*.tif
+data/
 
 api_keys.py
 
