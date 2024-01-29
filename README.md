@@ -107,13 +107,21 @@ The authors can be contacted via email for any questions or help regarding this 
 + Steffen Coenen (scoenen [at] uw.edu)
 
 ## Usage
-
 The application was written in the Python programming language and used on the Python version 3.8.
 
-
 ## Licensing
-
 See the [LICENSE](LICENSE) file for licensing information as it pertains to files in this repository.
 
 ## Documentation
 Further documentation can be found in the code. Each function and most code blocks contain their own comments and documentation with descriptions of e.g. function parameters.
+
+## Citation
+If you found this library useful in your research, please cite:
+'''
+@article{ugurel2024event,
+  title={Event detection from novel data sources: Leveraging satellite imagery alongside GPS traces},
+  author={Ugurel, Ekin and Coenen, Steffen and Chen, Minda Zhou and Chen, Cynthia},
+  journal={arXiv preprint arXiv:2401.10890},
+  year={2024}
+}
+'''
