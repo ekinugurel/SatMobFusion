@@ -117,11 +117,11 @@ Further documentation can be found in the code. Each function and most code bloc
 
 ## Citation
 If you found this library useful in your research, please cite:
-'''
+```
 @article{ugurel2024event,
   title={Event detection from novel data sources: Leveraging satellite imagery alongside GPS traces},
   author={Ugurel, Ekin and Coenen, Steffen and Chen, Minda Zhou and Chen, Cynthia},
   journal={arXiv preprint arXiv:2401.10890},
   year={2024}
 }
-'''
+```
