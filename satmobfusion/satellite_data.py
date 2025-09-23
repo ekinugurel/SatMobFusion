@@ -43,7 +43,7 @@ def get_planet_api_request(locs, location, max_cloud_cover, item_type):
         "type": "RangeFilter",
         "field_name": "cloud_cover",
         "config": {
-            "lte": 0.2
+            "lte": max_cloud_cover
         }
     }
 

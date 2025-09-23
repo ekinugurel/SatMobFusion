@@ -3,9 +3,9 @@ data/mobile/**/*.csv
 data/mobile/**/*.xlsx
 data/satellite/**/*.tif
 data/
-
+ballard/
 api_keys.py
-
+pdfs/
 
 # created by DataSpell
 .idea

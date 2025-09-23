@@ -16,7 +16,7 @@ class mobiledatamodule():
         return self.data
     
     def read_as_gdf(self, crs, lat='lat', lng='lon'):
-        self.data_gdf = gpd.GeoDataFrame(self.data, crs=crs, geometry=gpd.points_from_xy(df[lng], df[lat]))
+        self.data_gdf = gpd.GeoDataFrame(self.data, crs=crs, geometry=gpd.points_from_xy(self.data[lng], self.data[lat]))
         return self.data_gdf
     
     def add_datetime(self, time_col = 'timestamp', unit='s'):
